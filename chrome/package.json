@@ -1,0 +1,20 @@
+{
+  "name": "pep-tooltip-chrome",
+  "version": "0.1.0",
+  "description": "Chrome extension to add a tooltip alongside PEP numbers in discuss.python.org messages.",
+  "scripts": {
+    "_package": "rm -rf dist && mkdir dist && cp -r manifest.json lib static dist",
+    "build": "npm run _package && tsc",
+    "watch": "npm run _package && tsc --watch",
+    "package": "npm run build && rm -f pep-tooltip.zip && zip pep-tooltip.zip dist/*",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Loïc Simon",
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/chrome": "^0.0.287",
+    "tippy.js": "^6.3.7",
+    "typescript": "^5.7.2"
+  }
+}

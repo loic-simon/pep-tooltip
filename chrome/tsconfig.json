@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",
+    "strict": true,
+    "strictNullChecks": true,
+    "moduleResolution": "node",
+    "removeComments": true,
+    "rootDir": "./src",
+    "outDir": "./dist/js"
+  },
+  "include": ["./src/**/*.ts"],
+  "exclude": ["**/node_modules"]
+}
