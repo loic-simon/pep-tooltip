@@ -2,8 +2,8 @@
 
 _PEP Tooltip_ is a Chrome extension to add tooltips containing key information about _Python Enhancement Proposals_ (PEP) mentioned in [discuss.python.org](https://discuss.python.org) messages.
 
-![Screenshot of a tooltip in light mode](assets/screenshot1.png)
-![Screenshot of a tooltip in dark mode](assets/screenshot1.png)
+![A tooltip in light mode](assets/screenshot1.png) | ![A tooltip in dark mode](assets/screenshot2.png)
+---------------------------------------------------|--------------------------------------------------
 
 ## Features
 
