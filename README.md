@@ -2,6 +2,9 @@
 
 _PEP Tooltip_ is a Chrome extension to add tooltips containing key information about _Python Enhancement Proposals_ (PEP) mentioned in [discuss.python.org](https://discuss.python.org) messages.
 
+![Screenshot of a tooltip in light mode](assets/screenshot1.png)
+![Screenshot of a tooltip in dark mode](assets/screenshot1.png)
+
 ## Features
 
 This extension scans messages contents to add a ℹ️ emoji next to each occurrence of of the `PEP XXX` (case-insensitive) pattern. On hover, a tooltip appears displaying key information about the PEP (retrieved from [peps.python.org](https://peps.python.org) official API).
