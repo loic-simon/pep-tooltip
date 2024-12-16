@@ -6,7 +6,7 @@
     "_package": "rm -rf dist && mkdir dist && cp -r manifest.json lib static dist",
     "build": "npm run _package && tsc",
     "watch": "npm run _package && tsc --watch",
-    "package": "npm run build && rm -f pep-tooltip.zip && zip pep-tooltip.zip dist/*",
+    "package": "npm run build && rm -f pep-tooltip.zip && cd dist && zip -r ../pep-tooltip.zip .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Loïc Simon",
